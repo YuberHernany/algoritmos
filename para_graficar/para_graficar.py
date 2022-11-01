@@ -11,7 +11,7 @@ def ejes():
 def graficar(f, dominio, **kwargs):
     """Entradas:
             f: expresión de sympy
-            dominio: lista o array [star, stop] o [star, stop, steps]"""
+            dominio: lista o array [start, stop] o [start, stop, steps]"""
     ax = plt.gca()
     F = sy.lambdify(x, f, "numpy")
     if len(dominio) == 2:
