@@ -1,0 +1,27 @@
+1) Imprima alphabet e imprima type(alphabet)
+2) Imprima numbers e imprima type(numbers)
+3) Verifique que len(alphabet) == len(numbers)
+4) Imprima DICT e imprima DICT_INV
+5) Para los mensajes: 
+mensaje1 = 'hola mundo'
+mensaje2 = 'hello world'
+Imprima message2digits(mensaje) e imprima type(message2digits(mensaje))
+6) Capturando las salidas del ejercicio anterior como cifrado, imprima regular_blocks(cifrado, possible_len=2) y luego imprima regular_blocks(cifrado, possible_len=4)
+7) Construya una lista de strings_of_digits llamada blocks y en donde ningún bloque comienza en cero y pásela como argumento de la función join_blocks_starting_with_zero()
+8) Construya una lista de strings_of_digits llamada blocks y en donde algunos bloques en comienza en cero y pásela como argumento de la función join_blocks_starting_with_zero()
+9) Construya un string lleno de enteros y páselo como argumento de la función blocks_like_str(). Explore escenarios similares a los propuestos en los ejercicios anteriores 7) y 8).
+10) Construya un string lleno de enteros y páselo como argumento de la función blocks_like_int(). Explore escenarios similares a los propuestos en los ejercicios anteriores 7) y 8). Diga cuál es la diferencia con el ejercicio 9)
+11) Construya el mensaje "hola mundo hello world" y páselo como argumento de la función message2blocks(). 
+12) Construya el mensaje "hola mundo hello world" y páselo como argumento de la función message2blocks(mensaje, possible_len=2).
+13) Construya una lista llamada my_blocks en la que 
+cada elemento es un string de dítitos y todos los 
+elementos tienen la misma longitud. Luego, pase la 
+lista como argumento de la función unified_string, imprima
+el resultado, además de imprimir su tipo.
+14) Construya un gran string llamado string_de_digitos donde cada caracter es un dígito y cuya longitud sea par, luego pase el string como arguento de la función digits2message, imprima el resultado y el tipo del resultado.
+15) Construya una lista llamada my_blocks en la que 
+cada elemento es un string de dítitos y todos los 
+elementos tienen la misma longitud. Luego, pase la 
+lista como argumento de la función blocks2message, imprima
+el resultado, además de imprimir su tipo.
+
